@@ -12,6 +12,7 @@ const Home = () => {
         <p className="text-xl">I’m a Full Stack Developer passionate about building web experiences.</p>
       </section>
       <About />
+      <Projects />
     </div>
   );
 };
