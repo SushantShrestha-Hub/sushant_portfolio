@@ -1,5 +1,7 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
+import About from '../components/About';
+
 
 const Home = () => {
   return (
@@ -9,6 +11,7 @@ const Home = () => {
         <h1 className="text-5xl font-bold mb-4">Welcome to My Portfolio</h1>
         <p className="text-xl">I’m a Full Stack Developer passionate about building web experiences.</p>
       </section>
+      <About />
     </div>
   );
 };
