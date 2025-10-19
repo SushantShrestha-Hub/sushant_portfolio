@@ -17,5 +17,8 @@ app.get('/', (req, res) => {
   res.send('Backend is working!');
 });
 
+// Projects route
+app.use("/api/projects", projectRoutes);
+
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Running on port ${PORT}`));
